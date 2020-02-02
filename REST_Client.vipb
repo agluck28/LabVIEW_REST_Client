@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-02 13:29:45" Modified_Date="2020-02-02 13:30:40" Creator="Beta Tester" Comments="" ID="f283b47ab32d4e55bb12c874d7497c42">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-02 13:29:45" Modified_Date="2020-02-02 14:07:47" Creator="Beta Tester" Comments="" ID="bf789cba0b82ae7dd13e65836f9f3f64">
   <Library_General_Settings>
     <Package_File_Name>DoingThings_lib_REST_Client</Package_File_Name>
-    <Library_Version>0.1.0.2</Library_Version>
+    <Library_Version>0.1.1.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src\REST_Client</Library_Source_Folder>
     <Library_Output_Folder>builds</Library_Output_Folder>
@@ -32,7 +32,7 @@
       <Copyright/>
       <Packager>Adam Gluck</Packager>
       <URL/>
-      <Release_Notes/>
+      <Release_Notes>Fixed slash type</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -111,9 +111,6 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Compile_Exclusions>
-        <Path/>
-      </Compile_Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
     <Licensing_and_Activation>
@@ -255,7 +252,7 @@
         <Path>src\REST_Client\Methods</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3A16DCB5C369A21126FDFE022047AC3A</GUID>
+      <GUID>56ED1361D378691BC41485E1A8733653</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -346,7 +343,7 @@
         <Path>src\REST_Client\HTTP PUT File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FC340A1AC5A30D9E1FF5FBF5EBD30BA0</GUID>
+      <GUID>E9CD9E45C6E82C5C51D76F2D67A77888</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -381,7 +378,7 @@
         <Path>src\REST_Client\Header Info.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>79C09F19E98B1C61C060AA1CA580B7E5</GUID>
+      <GUID>D18DB84A569E6A8E94DA79A15EF2EEB3</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
